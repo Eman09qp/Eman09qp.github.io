@@ -3,28 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Emanuel Quintero's website</title>
-        <style>
-            body {
-                background-color: rgb(51, 59, 59); 
-                color: white; 
-                font-family:Arial, Helvetica, sans-serif;
-            }
-            h1 {
-                background: yellow; 
-                color: black; 
-                font-size: 16;
-            }
-        </style>
+        <title>Emanuel's website</title>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
-    <body>
-        <h1>Emanuel Quintero</h1>
-        <p>I'm a computer science student learning how to write a website.</p>
-        <button>Click me</button>
 
-        <ul>
-             <l1>Item 1</l1>
-             <l2>Item 2</l2>
-        </ul>
+    <body>
+        <header> 
+          <h1>Emanuel Quintero</h1>
+        </header>
+
+        <div class="description_section">
+            <div class="container">
+                <div>
+                    <h2>About me</h2>
+                    <p>
+                        I'm a Computer Science student pursuing a Bachelor's of Science at Arizona State University. I like solving problems and 
+                        learning new things. I'm currently searching for a internship for 2026. I have completed coursework in Distributed Software Development, 
+                        Operating Systems, Data Structures and Algorithms, Object Oriented Programming and Linear Algebra. 
+                    </p>
+                </div>
+                <div>
+                    <h2>Project's</h2>
+                    <ul>
+                        <li>
+                            GUI for Item manager application - Developed a GUI for an item manager application using sprint and 
+                            user flow diagrams written in Java for a mockup company that allows users to add, remove, and checkout items by storing their input.  
+                        </li>
+                        <li>
+                            SSP (Single Shortest Path) to node finder - Implemented a program in C++ to find the single shortest path from a given source node in a 
+                            Directed Acyclic Graph based on Dijkstra's algorithm. This algorithm is similar to the one used in Google Maps to find the shortest route to a destination.
+                        </li>
+                        <img src="images/dij_alg.png" alt="Dijkstra's Algorithm"/>
+                        <li>Web browser - Created a Web Browser written in C# through Visual Studio that implements a CAPTCHA web service to verify users. Gained knowledge 
+                            in client-server architecture and how to implement web services.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <p>602-763-7113 • equint14@asu.edu • <a href="https://www.linkedin.com/in/emanuel-quintero-808991244">linkedIn</a> • <a href="https://github.com/Eman09qp">GitHub</a></p>
+    </footer>
     </body>
 </html>
